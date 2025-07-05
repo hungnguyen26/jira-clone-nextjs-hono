@@ -8,7 +8,7 @@ import { GoCheckCircle, GoCheckCircleFill, GoHome , GoHomeFill} from "react-icon
 
 
 
-import { useWorkspaceId } from "@/features/workspaces/hooks/user-workspace-id";
+import { useWorkspaceId } from "@/features/workspaces/hooks/use-workspace-id";
 
 const routes = [
     {

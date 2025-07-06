@@ -42,5 +42,8 @@ import { AUTH_COOKIE } from "@/features/auth/constants";
         get account(){
             return new Account(client);
         },
+        get users(){
+            return new Users(client);
+        }
     };
  }
